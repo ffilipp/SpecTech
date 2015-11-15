@@ -1,0 +1,177 @@
+/* common */
+
+.container {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 940px;
+	padding: 0 10px;
+}
+
+
+/* page-header */
+
+.page-header {
+	background-color: #ffcd34;
+	padding: 15px 0;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	text-decoration: none;
+}
+
+.main-nav {
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+
+.main-nav li {
+	display: inline-block;
+}
+
+.main-nav a {
+	color: rgba(0, 0, 0, 0.5);
+	padding: 0 20px;
+	text-decoration: none;
+}
+
+.logo-brand {
+	font-size: 24px;
+	color: #000;
+}
+
+/* subheader */
+
+.subheader {
+	background-color: gray;
+	padding: 15px 0;
+}
+
+.subheader-left {
+	float: left;
+	width: 60%;
+	margin-right: 5%;
+}
+
+.subheader-right {
+	float: left;
+	width: 30%;
+}
+
+
+/* catalog */
+
+.catalog {
+	background-color: #f3f3f3;
+}
+
+.catalog-nav {
+	float: left;
+	width: 320px;
+} 
+
+.catalog-nav-list {
+	display: block;
+	padding-left: 0;
+}
+
+.catalog-nav li {
+	padding: 8px 0;
+	list-style-type: none;
+}
+
+.catalog-nav a {
+	text-decoration: none;
+	color: #353535;
+}
+
+
+
+.catalog-content-wrap {
+	overflow: hidden;
+}
+
+.catalog-content {
+	float: left;
+	width: 620px;
+}
+
+.catalog-item {
+	float: left;
+	width: 300px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.catalog-item:nth-child(2n+1) {
+	margin-right: 20px;
+}
+
+.catalog-btn {
+	width: 50%;
+	font-size: 14px;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	color: white;
+}
+
+.catalog-btn-rent {
+	background-color: #f3c331;
+}
+
+.catalog-btn-more {
+	background-color: #354b60;
+}
+
+.pagination-wraper {
+	text-align: center;
+}
+
+.catalog-pagination ul {
+	display: block;
+	text-align: center;
+
+}
+
+.catalog-pagination li {
+	display: inline-block;
+
+}
+
+.catalog-pagination a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* special offers*/
+
+.special-offers {
+	background-color: gray;
+}
+
+.catalog-item-special {
+	float: left;
+	width: 300px;
+	margin-bottom: 4%;
+	background-color: white;
+	padding: 30px;
+	margin-left: 20px;
+	box-sizing: border-box;
+}
+
+.catalog-item-special:first-child {
+	margin-left: 0;
+}
+
+.catalog-item-special:last-child {
+	margin-right: 0;
+}
+
+
