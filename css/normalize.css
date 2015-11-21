@@ -425,3 +425,6 @@ th {
 
 
 /* ul no padding left*/
+ul {
+  padding-left: 0;
+}
