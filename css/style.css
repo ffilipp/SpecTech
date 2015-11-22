@@ -110,6 +110,103 @@ body {
 	color: #202e3b; 	
 }
 
+/* Promo-block*/
+
+.promo {
+	height: 460px;
+	text-align: center;
+	background-image: url(../img/Promo_bg.png);
+	background-size: cover;
+	background-position: top;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+
+.promo .container {
+	padding-bottom: 30px;
+}
+
+.promo-slogan {
+	font-size: 44px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.promo .title {
+	color: #e1e1e1;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.promo-btn {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border: 2px solid #ffcd34;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+
+/* TECHNICK */
+
+.technic {
+	background-color: #f3f3f3;
+}
+
+/* Technic-aside */
+
+.technic-list {
+	float: left;
+	width: 220px;
+} 
+
+.technick-list {
+	display: block;
+	padding-left: 0;
+}
+
+.technic-list li {
+	padding: 8px 0;
+	list-style-type: none;
+	color: #353535;
+}
+
+.technic-list a {
+	font-size: 16px;
+	color: #353535;
+}
+
+/* Techick-table */
+
+.deals {
+	width: 700px;
+	float: right;            
+}
+
+.deals th {
+	background-color: #dfdfdf;
+	padding: 10px;
+	text-align: left;
+}
+
+.deals table {
+	width: 100%;
+}
+
+.deals tr:nth-child(2n+1) {
+	background-color: white;
+}
+
+.deals td {
+	padding: 10px;
+}
+
+
+
 /* portfolio */
 
 .portfolio-nav {
