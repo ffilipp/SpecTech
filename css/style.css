@@ -16,6 +16,17 @@ body {
 .page-header {
 	background-color: #ffcd34;
 	padding: 15px 0;
+	position: relative;
+}
+
+.page-header:before {
+	content: "";
+	position: absolute;
+	display: block;
+	background: repeating-linear-gradient(135deg , #ffcd34 0px, #ffcd34 10px, black 10px, black 20px);
+	height: 10px;
+	width: 100%;
+	bottom: 0;
 }
 
 .logo {
@@ -155,6 +166,7 @@ body {
 
 .technic {
 	background-color: #f3f3f3;
+	padding: 30px 0;
 }
 
 /* Technic-aside */
@@ -222,6 +234,78 @@ body {
 	color: white;
 	padding: 0 13px;
 }
+
+
+/* ABOUT */
+
+.about {
+	padding: 30px 0;
+	background-color: #202e3b;
+	color: white;
+} 
+
+.about-numbers {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+
+.about-reviews {
+	float: left;
+	width: 620px;
+}
+
+.about p {
+	font-size: 18px;
+	color: #9e9e9e;
+}
+
+.about-number {
+	font-size: 38px;
+	color: #ffcd34;
+	font-weight: bold;
+}
+
+.about-reviews-item {
+	overflow: hidden;
+}
+
+.avatar-about-reviews {
+	border-radius: 6px;  
+	width: 120px;
+	height: 120px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	clear: both;
+	margin-bottom: 40px;
+}
+
+.avatar-about-reviews:before {
+	content: "";
+	border: 3px solid #ffcd34;
+	border-radius: 6px;  
+	width: 114px;
+	height: 114px;
+	position: absolute;
+}
+
+.about-reviews-item blockquote {
+	padding-left: 100px;
+	margin-top: 0;
+	margin-right: 0;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.about-reviews-item cite {
+	color: #ffcd34;
+	margin-top: 10px;
+	display: block;
+}
+
+
+
 
 /* PORTFOLIO*/
 
@@ -503,6 +587,17 @@ footer .btn-order a {
 .consult-form {
 	background-color: #202e3b;
 	padding: 10px 0 40px 0;
+	position: relative;
+}
+
+.consult-form:before {
+	content: "";
+	position: absolute;
+	display: block;
+	background: repeating-linear-gradient(135deg , #ffcd34 0px, #ffcd34 10px, black 10px, black 20px);
+	height: 10px;
+	width: 100%;
+	top: 0;
 }
 
 .consult-title {
@@ -587,4 +682,10 @@ input {
 	background-repeat: no-repeat;
 	float: left;
 	background-position: 0px 17px;
+}
+
+/* MAP */
+
+.map {
+	height: 200px;
 }
